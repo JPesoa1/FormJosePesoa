@@ -8,6 +8,31 @@ using System.Threading.Tasks;
 using FormJosePesoa.Helpers;
 using FormJosePesoa.Models;
 
+#region
+
+//RECOGEMOS TODOS LOS CLIENTES 
+
+//ALTER PROCEDURE SP_CLIENTES
+//AS
+//	SELECT * FROM CLIENTES
+//GO
+
+
+
+
+
+//RECOGEMOS TODOS LOS PEDIDOS POR CLIENTE SELECCIONADO
+
+//CREATE PROCEDURE SP_PEDIDOS_CLIENTE
+//(@CODIGOCLIENTE NVARCHAR(20))
+//AS
+//	SELECT * FROM PEDIDOS WHERE CodigoCliente = @CODIGOCLIENTE
+//GO
+
+#endregion
+
+
+
 namespace FormJosePesoa.Repositories
 {
     public  class RepositoryClientesPedidos
